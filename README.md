@@ -1,2 +1,7 @@
 # Crushhh
-An app where you get to find your crush
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.

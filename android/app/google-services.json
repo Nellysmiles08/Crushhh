@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168953877780",
+    "project_id": "crush-fc59b",
+    "storage_bucket": "crush-fc59b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168953877780:android:d2b92a802cca9b96d81e01",
+        "android_client_info": {
+          "package_name": "com.mycompany.crush"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuZBYCxSv8Mg2wQJuq0ZbzpE7TLGepjFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
