@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
 
     _appStateNotifier = AppStateNotifier.instance;
     _router = createRouter(_appStateNotifier);
-    userStream = crushhhFirebaseUserStream()
+    userStream = crushFirebaseUserStream()
       ..listen((user) {
         _appStateNotifier.update(user);
       });
@@ -81,7 +81,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Crushhh',
+      title: 'Crush',
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,

@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Crushhh</string>
+	<string>Crush</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 
@@ -37,10 +37,10 @@
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>crushhh.com</string>
+        <string>crush.com</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>crushhh</string>
+        <string>crush</string>
         </array>
         </dict>
     </array>

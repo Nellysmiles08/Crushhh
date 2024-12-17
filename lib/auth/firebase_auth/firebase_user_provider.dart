@@ -5,8 +5,8 @@ import '../base_auth_user_provider.dart';
 
 export '../base_auth_user_provider.dart';
 
-class CrushhhFirebaseUser extends BaseAuthUser {
-  CrushhhFirebaseUser(this.user);
+class CrushFirebaseUser extends BaseAuthUser {
+  CrushFirebaseUser(this.user);
   User? user;
   @override
   bool get loggedIn => user != null;
@@ -59,17 +59,17 @@ class CrushhhFirebaseUser extends BaseAuthUser {
 
   static BaseAuthUser fromUserCredential(UserCredential userCredential) =>
       fromFirebaseUser(userCredential.user);
-  static BaseAuthUser fromFirebaseUser(User? user) => CrushhhFirebaseUser(user);
+  static BaseAuthUser fromFirebaseUser(User? user) => CrushFirebaseUser(user);
 }
 
-Stream<BaseAuthUser> crushhhFirebaseUserStream() => FirebaseAuth.instance
+Stream<BaseAuthUser> crushFirebaseUserStream() => FirebaseAuth.instance
         .authStateChanges()
         .debounce((user) => user == null && !loggedIn
             ? TimerStream(true, const Duration(seconds: 1))
             : Stream.value(user))
         .map<BaseAuthUser>(
       (user) {
-        currentUser = CrushhhFirebaseUser(user);
+        currentUser = CrushFirebaseUser(user);
         return currentUser!;
       },
     );

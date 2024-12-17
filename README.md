@@ -1,4 +1,4 @@
-# Crushhh
+# Crush
 
 A new Flutter project.
 
